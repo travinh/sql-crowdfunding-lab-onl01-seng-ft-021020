@@ -4,4 +4,4 @@ INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES
 INSERT INTO users(name, age) VALUES ("Thomas", 20), ("McCue", 21), ("Cody", 22), ("John", 23), ("Terry", 24), ("Phil", 25), ("Jones", 26), ("Ronaldo", 27), ("Messi", 28), ("Rio", 29), ("Mateo", 30), ("Kaka", 32), ("Neymar", 32), ("Ronaldinho", 33), ("Vinh", 34), ("Phuong", 35), ("Lee", 36), ("Kate", 37), ("Vincent", 38), ("Tran", 39); 
 
 
-INSERT INTO pledges(amount, user_id, project_id) VALUES (50000,1,1), 
+INSERT INTO pledges(amount, user_id, project_id) VALUES (50000,1,1), (520000,2,3), (230000,2,1), (330000,4,2), (340000,3,4), (51000,5,5), (590000,5,6), (770000,7,6), (80000,6,9), (450000,1,10), (543000,6,8), (230000,7,9), 
