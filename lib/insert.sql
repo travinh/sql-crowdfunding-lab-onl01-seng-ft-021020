@@ -2,3 +2,9 @@ INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES
 
 
 INSERT INTO users(name, age) VALUES ("Thomas", 20), ("McCue", 21), ("Cody", 22), ("John", 23), ("Terry", 24), ("Phil", 25), ("Jones", 26), ("Ronaldo", 27), ("Messi", 28), ("Rio", 29), ("Mateo", 30), ("Kaka", 32), ("Neymar", 32), ("Ronaldinho", 33), ("Vinh", 34), ("Phuong", 35), ("Lee", 36), ("Kate", 37), ("Vincent", 38), ("Tran", 39); 
+
+amount INTEGER,
+user_id INTEGER,
+project_id INTEGER
+
+INSERT INTO pledges(amount, user_id, project_id)
