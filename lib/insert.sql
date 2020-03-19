@@ -1,1 +1,1 @@
-INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES ("Hello","Novel", 50000, ),
+INSERT INTO projects(title, category, funding_goal, start_date, end_date) VALUES ("Hello","Novel", 50000, 2000-01-01, 2001-01-01),("World","Scary", 10000, 2000-02-01, 2001-02-01),("It","Comedy", 5000, 2000-03-01, 2001-03-01), ("Me","Novel", 100000, 2000-04-15, 2001-04-01), ("I am","Novel", 50000, 2000-01-01, 2001-01-01)
